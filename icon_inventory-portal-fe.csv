@@ -1,0 +1,239 @@
+file,line,type,library,icon_name,context,label
+components\ButtonAnchor\ButtonAnchor.test.tsx,7,SVG_inline,Inline SVG,(inline),"const icon = <svg data-testid=""icon"" />;",
+components\CustomSelect\Option.js,1,SVG_import,Local SVG file,select-checkmark.svg,,select checkmark
+components\QRCode\CollapsedView.tsx,4,SVG_import,Local SVG file,download-app-store.svg,,download app store
+components\QRCode\ExpandedView.tsx,3,SVG_import,Local SVG file,download-app-store.svg,,download app store
+components\QRCode\QRCodeGenerator.tsx,5,SVG_import,Local SVG file,qr-logo.svg,,qr logo
+components\ReferenceMediaPreview\ReferenceMediaPreview.tsx,11,SVG_import,Local SVG file,thumbnail-placeholder.svg,,thumbnail placeholder
+components\UploadThumbnail\UploadThumbnail.tsx,2,ReactIcons,react-icons/bs,BsFiletypeMp4,,filetype mp4
+components\UploadThumbnail\UploadThumbnail.tsx,2,ReactIcons,react-icons/bs,BsFiletypeXlsx,,filetype xlsx
+components\UploadThumbnail\UploadThumbnail.tsx,2,ReactIcons,react-icons/bs,BsFiletypeXml,,filetype xml
+components\UploadThumbnail\UploadThumbnail.tsx,3,ReactIcons,react-icons/fa6,FaFile,,file
+components\UploadThumbnail\UploadThumbnail.tsx,3,ReactIcons,react-icons/fa6,FaFileCsv,,file csv
+components\UploadThumbnail\UploadThumbnail.tsx,3,ReactIcons,react-icons/fa6,FaFilePdf,,file pdf
+screens\AccessTokens\AccessTokenDisplay.tsx,202,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\Account\AccountCompanyInfo\AccountCompanyInfoLogo\AccountCompanyInfoLogo.js,8,SVG_import,Local SVG file,company-info.svg,,company info
+screens\Account\AccountWrapper\AccountWrapper.js,12,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\Albums\ProjectCategory\ProjectCategory.old.js,1310,ReactIcons,react-icons/go (Github Octicons),GoBackButton,isDraftOrRemote || !isDroneImages ? <GoBackButton /> : <div /> //temporarily rendering a div to not mess up our flex jus,back button
+screens\Albums\ProjectCategory\ProjectCategory.tsx,1158,ReactIcons,react-icons/go (Github Octicons),GoBackButton,isDraftOrRemote || !isDroneImages ? <GoBackButton /> : <div /> //temporarily rendering a div to not mess up our flex jus,back button
+screens\Albums\ProjectCategory\ProjectCategoryMap\ProjectCategoryMap.tsx,20,SVG_import,Local SVG file,thumbnail-placeholder.svg,,thumbnail placeholder
+screens\Albums\ProjectCategory\ThumbnailList\Thumbnail.tsx,15,SVG_import,Local SVG file,thumbnail-placeholder.svg,,thumbnail placeholder
+screens\ChecklistTemplate\Editor\layout\Toolbar.tsx,177,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton hasUnsavedChanges={hasUnsavedChanges} />,back button
+screens\ChecklistTemplate\Manager\components\StyledBackButton.tsx,8,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\DesignServices\DesignServicesQueue\DesignServicesQueue.tsx,200,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\DesignServices\DesignServicesQueue\CreditsCompanyQueue\CreditHistoryAdminQueue.tsx,93,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\DesignServices\DesignServicesQueue\DSCompanyQueue\DesignServicesCompanyQueue.tsx,143,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\DesignServices\OrderDesign\DesignSelection\ActionButtons\ActionButtons.tsx,37,ReactIcons,react-icons/go (Github Octicons),GoBackIcon,const GoBack = ({ ...props }) => <GoBackIcon {...props} />;,back
+screens\DesignServices\OrderDesign\DesignSelection\FormWrapper\UploadForm\UploadForm.scss,54,SCSS_url,SCSS background-image,../../../../../../assets/icons/arrow-circle.svg,content: url('../../../../../../assets/icons/arrow-circle.svg');,arrow circle
+screens\DesignServices\OrderDesign\DesignSelection\FormWrapper\UploadForm\UploadForm.scss,71,SCSS_url,SCSS background-image,../../../../../../assets/icons/arrow-circle-blue.svg,content: url('../../../../../../assets/icons/arrow-circle-blue.svg') !important;,arrow circle blue
+screens\DesignServices\OrderDesign\DesignSelection\FormWrapper\UploadForm\UploadForm.scss,99,SCSS_url,SCSS background-image,../../../../../../assets/icons/arrow-circle-blue.svg,content: url('../../../../../../assets/icons/arrow-circle-blue.svg');,arrow circle blue
+screens\Integrations\Integrations.tsx,48,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\Notes\Note\Note.tsx,23,ReactIcons,react-icons/bs,BsFiletypeMp4,,filetype mp4
+screens\Notes\Note\Note.tsx,23,ReactIcons,react-icons/bs,BsFiletypeXlsx,,filetype xlsx
+screens\Notes\Note\Note.tsx,23,ReactIcons,react-icons/bs,BsFiletypeXml,,filetype xml
+screens\Notes\Note\Note.tsx,24,ReactIcons,react-icons/fa6,FaFile,,file
+screens\Notes\Note\Note.tsx,24,ReactIcons,react-icons/fa6,FaFileCsv,,file csv
+screens\Notes\Note\Note.tsx,24,ReactIcons,react-icons/fa6,FaFilePdf,,file pdf
+screens\Notes\Note\Note.tsx,21,SVG_import,Local SVG file,thumbnail-placeholder.svg,,thumbnail placeholder
+screens\Notes\Note\Note.tsx,22,SVG_import,Local SVG file,user-avatar.svg,,user avatar
+screens\Notes\NotesTextarea\NotesTextarea.tsx,21,ReactIcons,react-icons/fa,FaCloudUploadAlt,,cloud upload alt
+screens\Notes\NotesTextarea\NotesTextarea.tsx,20,SVG_import,Local SVG file,thumbnail-placeholder.svg,,thumbnail placeholder
+screens\Projects\ScaniflyInfo\ScaniflyInfo.js,309,ReactIcons,react-icons/go (Github Octicons),GoBackButton,{isNewProject && <GoBackButton onClick={handleBack} />},back button
+screens\ResellerAdmin\Companies\Companies.tsx,106,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ResellerAdmin\CompanyProjects\CompanyProjects.tsx,151,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ResellerAdmin\CompanyUsers\CompanyUsers.tsx,105,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ResellerAdmin\S3dSettings\S3dSettings.tsx,109,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\AccessTokens\AccessTokens.js,172,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\Accounting\AccountingTable.tsx,93,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\AccountManager\AccountManager.tsx,91,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\CertainteedProjects\BaseCertainteedProjects.tsx,99,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\CreditHistory\CreditHistoryAll.tsx,96,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\CreditHistory\CreditHistoryCompany.tsx,99,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\CreditHistory\CreditHistoryReseller.tsx,127,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\CustomerSupportUpload\CustomerSupportUpload.tsx,185,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\Projects\BaseProjects.tsx,132,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\Resellers\Resellers.tsx,165,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\Users\Users.tsx,72,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\Users\UsersCustomer.tsx,78,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\ScaniflyAdmin\VaAssignmentConfig\VaAssignmentConfig.tsx,128,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\Sidebar\Menus\CollapsibleMenu\CollapsibleMenu.tsx,3,SVG_import,Local SVG file,dropdown-arrow.svg,,dropdown arrow
+screens\Sidebar\Menus\ProjectMenuSidebar\ProjectMenuSidebar.tsx,22,SVG_import,Local SVG file,comment-icon.svg,,comment icon
+screens\Sidebar\Menus\ProjectMenuSidebar\ProjectMenuSidebar.tsx,23,SVG_import,Local SVG file,designs-icon.svg,,designs icon
+screens\Sidebar\Menus\ProjectMenuSidebar\ProjectMenuSidebar.tsx,24,SVG_import,Local SVG file,document-icon.svg,,document icon
+screens\Sidebar\Menus\ProjectMenuSidebar\ProjectMenuSidebar.tsx,25,SVG_import,Local SVG file,maintenance.svg,,maintenance
+screens\Sidebar\Menus\ProjectMenuSidebar\ProjectMenuSidebar.tsx,26,SVG_import,Local SVG file,project-title-icon.svg,,project title icon
+screens\Sidebar\Menus\ProjectMenuSidebar\ProjectMenuSidebar.tsx,27,SVG_import,Local SVG file,site-data-icon.svg,,site data icon
+screens\Team\NavigationBar\NavigationBar.tsx,27,ReactIcons,react-icons/go (Github Octicons),GoBackButton,<GoBackButton />,back button
+screens\Team\TeamList\Teammate\Teammate.js,17,SVG_import,Local SVG file,user-avatar.svg,,user avatar
+styles\overwrites\uppy.scss,327,SCSS_url,SCSS background-image,../../assets/icons/arrow-circle.svg,content: url('../../assets/icons/arrow-circle.svg');,arrow circle
+styles\overwrites\uppy.scss,344,SCSS_url,SCSS background-image,../../assets/icons/arrow-circle-blue.svg,content: url('../../assets/icons/arrow-circle-blue.svg') !important;,arrow circle blue
+styles\overwrites\uppy.scss,371,SCSS_url,SCSS background-image,../../assets/icons/arrow-circle-blue.svg,content: url('../../assets/icons/arrow-circle-blue.svg');,arrow circle blue
+assets\3dsettings.svg,,SVG_asset,Local icon asset,3dsettings.svg,,3dsettings
+assets\account-profile-icon.svg,,SVG_asset,Local icon asset,account-profile-icon.svg,,account profile icon
+assets\admin-icon-sidebar.svg,,SVG_asset,Local icon asset,admin-icon-sidebar.svg,,admin icon sidebar
+assets\admin-icon.svg,,SVG_asset,Local icon asset,admin-icon.svg,,admin icon
+assets\arrow-up.svg,,SVG_asset,Local icon asset,arrow-up.svg,,arrow up
+assets\billing-icon.svg,,SVG_asset,Local icon asset,billing-icon.svg,,billing icon
+assets\bolt-solid.svg,,SVG_asset,Local icon asset,bolt-solid.svg,,bolt solid
+assets\boolean.svg,,SVG_asset,Local icon asset,boolean.svg,,boolean
+assets\box.svg,,SVG_asset,Local icon asset,box.svg,,box
+assets\camera.svg,,SVG_asset,Local icon asset,camera.svg,,camera
+assets\checkbox-stacked.svg,,SVG_asset,Local icon asset,checkbox-stacked.svg,,checkbox stacked
+assets\checkbox-unchecked.svg,,SVG_asset,Local icon asset,checkbox-unchecked.svg,,checkbox unchecked
+assets\checkbox.svg,,SVG_asset,Local icon asset,checkbox.svg,,checkbox
+assets\checklist-manager.svg,,SVG_asset,Local icon asset,checklist-manager.svg,,checklist manager
+assets\checklist-template-battery.svg,,SVG_asset,Local icon asset,checklist-template-battery.svg,,checklist template battery
+assets\checklist-template-building.svg,,SVG_asset,Local icon asset,checklist-template-building.svg,,checklist template building
+assets\checklist-template-default.svg,,SVG_asset,Local icon asset,checklist-template-default.svg,,checklist template default
+assets\checklist-template-design.svg,,SVG_asset,Local icon asset,checklist-template-design.svg,,checklist template design
+assets\checklist-template-final.svg,,SVG_asset,Local icon asset,checklist-template-final.svg,,checklist template final
+assets\checklist-template-ground-mount.svg,,SVG_asset,Local icon asset,checklist-template-ground-mount.svg,,checklist template ground mount
+assets\checklist-template-home.svg,,SVG_asset,Local icon asset,checklist-template-home.svg,,checklist template home
+assets\checklist-template-maintenance.svg,,SVG_asset,Local icon asset,checklist-template-maintenance.svg,,checklist template maintenance
+assets\company-settings-icon.svg,,SVG_asset,Local icon asset,company-settings-icon.svg,,company settings icon
+assets\copy.svg,,SVG_asset,Local icon asset,copy.svg,,copy
+assets\credit-history.svg,,SVG_asset,Local icon asset,credit-history.svg,,credit history
+assets\data-request-icon.svg,,SVG_asset,Local icon asset,data-request-icon.svg,,data request icon
+assets\data-review-icon.svg,,SVG_asset,Local icon asset,data-review-icon.svg,,data review icon
+assets\date.svg,,SVG_asset,Local icon asset,date.svg,,date
+assets\delete.svg,,SVG_asset,Local icon asset,delete.svg,,delete
+assets\deliverables-icon.svg,,SVG_asset,Local icon asset,deliverables-icon.svg,,deliverables icon
+assets\design-queue-icon.svg,,SVG_asset,Local icon asset,design-queue-icon.svg,,design queue icon
+assets\design-queue.svg,,SVG_asset,Local icon asset,design-queue.svg,,design queue
+assets\design-review-icon.svg,,SVG_asset,Local icon asset,design-review-icon.svg,,design review icon
+assets\down.svg,,SVG_asset,Local icon asset,down.svg,,down
+assets\download-play-store.png,,SVG_asset,Local icon asset,download-play-store.png,,download play store
+assets\drone-small.svg,,SVG_asset,Local icon asset,drone-small.svg,,drone small
+assets\dronecrash-animation.svg,,SVG_asset,Local icon asset,dronecrash-animation.svg,,dronecrash animation
+assets\dropbox.svg,,SVG_asset,Local icon asset,dropbox.svg,,dropbox
+assets\dropdown.svg,,SVG_asset,Local icon asset,dropdown.svg,,dropdown
+assets\edit.svg,,SVG_asset,Local icon asset,edit.svg,,edit
+assets\eye-icon.svg,,SVG_asset,Local icon asset,eye-icon.svg,,eye icon
+assets\finance-tab-highlighted-icon.svg,,SVG_asset,Local icon asset,finance-tab-highlighted-icon.svg,,finance tab highlighted icon
+assets\finance-tab-icon.svg,,SVG_asset,Local icon asset,finance-tab-icon.svg,,finance tab icon
+assets\folder-open-solid.svg,,SVG_asset,Local icon asset,folder-open-solid.svg,,folder open solid
+assets\g-drive.svg,,SVG_asset,Local icon asset,g-drive.svg,,g drive
+assets\help-icon.svg,,SVG_asset,Local icon asset,help-icon.svg,,help icon
+assets\house-chimney-solid.svg,,SVG_asset,Local icon asset,house-chimney-solid.svg,,house chimney solid
+assets\login-security-icon.svg,,SVG_asset,Local icon asset,login-security-icon.svg,,login security icon
+assets\maintenance-button-icon.svg,,SVG_asset,Local icon asset,maintenance-button-icon.svg,,maintenance button icon
+assets\media.svg,,SVG_asset,Local icon asset,media.svg,,media
+assets\mention.svg,,SVG_asset,Local icon asset,mention.svg,,mention
+assets\models-icon.svg,,SVG_asset,Local icon asset,models-icon.svg,,models icon
+assets\my-projects-icon.svg,,SVG_asset,Local icon asset,my-projects-icon.svg,,my projects icon
+assets\notapplicable.svg,,SVG_asset,Local icon asset,notapplicable.svg,,notapplicable
+assets\notes.svg,,SVG_asset,Local icon asset,notes.svg,,notes
+assets\notification-bell-gray.svg,,SVG_asset,Local icon asset,notification-bell-gray.svg,,notification bell gray
+assets\notification-bell.svg,,SVG_asset,Local icon asset,notification-bell.svg,,notification bell
+assets\onsite-drone.svg,,SVG_asset,Local icon asset,onsite-drone.svg,,onsite drone
+assets\operations-tab-highlighted-icon.svg,,SVG_asset,Local icon asset,operations-tab-highlighted-icon.svg,,operations tab highlighted icon
+assets\operations-tab-icon.svg,,SVG_asset,Local icon asset,operations-tab-icon.svg,,operations tab icon
+assets\photos-and-stories.svg,,SVG_asset,Local icon asset,photos-and-stories.svg,,photos and stories
+assets\plug-integrations.svg,,SVG_asset,Local icon asset,plug-integrations.svg,,plug integrations
+assets\projects.svg,,SVG_asset,Local icon asset,projects.svg,,projects
+assets\publish.svg,,SVG_asset,Local icon asset,publish.svg,,publish
+assets\radio.svg,,SVG_asset,Local icon asset,radio.svg,,radio
+assets\refresh-icon.svg,,SVG_asset,Local icon asset,refresh-icon.svg,,refresh icon
+assets\remote-satelite.svg,,SVG_asset,Local icon asset,remote-satelite.svg,,remote satelite
+assets\rename.svg,,SVG_asset,Local icon asset,rename.svg,,rename
+assets\round-x-icon.svg,,SVG_asset,Local icon asset,round-x-icon.svg,,round x icon
+assets\satellite-small.svg,,SVG_asset,Local icon asset,satellite-small.svg,,satellite small
+assets\save.svg,,SVG_asset,Local icon asset,save.svg,,save
+assets\scaniflyicon.svg,,SVG_asset,Local icon asset,scaniflyicon.svg,,scaniflyicon
+assets\scaniflylogo.svg,,SVG_asset,Local icon asset,scaniflylogo.svg,,scaniflylogo
+assets\sidebar-credits.svg,,SVG_asset,Local icon asset,sidebar-credits.svg,,sidebar credits
+assets\stamp-icon.svg,,SVG_asset,Local icon asset,stamp-icon.svg,,stamp icon
+assets\team-icon.svg,,SVG_asset,Local icon asset,team-icon.svg,,team icon
+assets\text.svg,,SVG_asset,Local icon asset,text.svg,,text
+assets\time.svg,,SVG_asset,Local icon asset,time.svg,,time
+assets\unpublish.svg,,SVG_asset,Local icon asset,unpublish.svg,,unpublish
+assets\up.svg,,SVG_asset,Local icon asset,up.svg,,up
+assets\upload-queue.svg,,SVG_asset,Local icon asset,upload-queue.svg,,upload queue
+assets\user-solid.svg,,SVG_asset,Local icon asset,user-solid.svg,,user solid
+assets\buttonIcons\checkmark.svg,,SVG_asset,Local icon asset,checkmark.svg,,checkmark
+assets\buttonIcons\share.svg,,SVG_asset,Local icon asset,share.svg,,share
+assets\icons\admin-icon.svg,,SVG_asset,Local icon asset,admin-icon.svg,,admin icon
+assets\icons\alert-icon.svg,,SVG_asset,Local icon asset,alert-icon.svg,,alert icon
+assets\icons\arrow-circle-blue.svg,,SVG_asset,Local icon asset,arrow-circle-blue.svg,,arrow circle blue
+assets\icons\arrow-circle.svg,,SVG_asset,Local icon asset,arrow-circle.svg,,arrow circle
+assets\icons\arrow-large.svg,,SVG_asset,Local icon asset,arrow-large.svg,,arrow large
+assets\icons\bolt-icon.svg,,SVG_asset,Local icon asset,bolt-icon.svg,,bolt icon
+assets\icons\cancel-icon.svg,,SVG_asset,Local icon asset,cancel-icon.svg,,cancel icon
+assets\icons\cancel-red-filled.svg,,SVG_asset,Local icon asset,cancel-red-filled.svg,,cancel red filled
+assets\icons\category-icon.svg,,SVG_asset,Local icon asset,category-icon.svg,,category icon
+assets\icons\checkmark-filled-green.svg,,SVG_asset,Local icon asset,checkmark-filled-green.svg,,checkmark filled green
+assets\icons\checkmark-filled.svg,,SVG_asset,Local icon asset,checkmark-filled.svg,,checkmark filled
+assets\icons\checkmark.svg,,SVG_asset,Local icon asset,checkmark.svg,,checkmark
+assets\icons\chevron-down.svg,,SVG_asset,Local icon asset,chevron-down.svg,,chevron down
+assets\icons\chevron-left.svg,,SVG_asset,Local icon asset,chevron-left.svg,,chevron left
+assets\icons\chevron-right-gray.svg,,SVG_asset,Local icon asset,chevron-right-gray.svg,,chevron right gray
+assets\icons\chevron-right.svg,,SVG_asset,Local icon asset,chevron-right.svg,,chevron right
+assets\icons\chevron-up.svg,,SVG_asset,Local icon asset,chevron-up.svg,,chevron up
+assets\icons\circle-exclamation-solid-icon.svg,,SVG_asset,Local icon asset,circle-exclamation-solid-icon.svg,,circle exclamation solid icon
+assets\icons\circle.svg,,SVG_asset,Local icon asset,circle.svg,,circle
+assets\icons\clock-icon.svg,,SVG_asset,Local icon asset,clock-icon.svg,,clock icon
+assets\icons\collapse-trigger.svg,,SVG_asset,Local icon asset,collapse-trigger.svg,,collapse trigger
+assets\icons\completed-icon.svg,,SVG_asset,Local icon asset,completed-icon.svg,,completed icon
+assets\icons\compress-icon.svg,,SVG_asset,Local icon asset,compress-icon.svg,,compress icon
+assets\icons\copy-icon.svg,,SVG_asset,Local icon asset,copy-icon.svg,,copy icon
+assets\icons\dollar-sign-solid.svg,,SVG_asset,Local icon asset,dollar-sign-solid.svg,,dollar sign solid
+assets\icons\download-cloud.svg,,SVG_asset,Local icon asset,download-cloud.svg,,download cloud
+assets\icons\drone-icon.svg,,SVG_asset,Local icon asset,drone-icon.svg,,drone icon
+assets\icons\edit-icon.svg,,SVG_asset,Local icon asset,edit-icon.svg,,edit icon
+assets\icons\ellipsis-icon.svg,,SVG_asset,Local icon asset,ellipsis-icon.svg,,ellipsis icon
+assets\icons\emoji-icon.svg,,SVG_asset,Local icon asset,emoji-icon.svg,,emoji icon
+assets\icons\envelope.svg,,SVG_asset,Local icon asset,envelope.svg,,envelope
+assets\icons\error-icon.svg,,SVG_asset,Local icon asset,error-icon.svg,,error icon
+assets\icons\expand-icon.svg,,SVG_asset,Local icon asset,expand-icon.svg,,expand icon
+assets\icons\file-image-solid.svg,,SVG_asset,Local icon asset,file-image-solid.svg,,file image solid
+assets\icons\folder-icon.svg,,SVG_asset,Local icon asset,folder-icon.svg,,folder icon
+assets\icons\fullscreen-icon.svg,,SVG_asset,Local icon asset,fullscreen-icon.svg,,fullscreen icon
+assets\icons\gear-icon-2.svg,,SVG_asset,Local icon asset,gear-icon-2.svg,,gear icon 2
+assets\icons\gear-icon.svg,,SVG_asset,Local icon asset,gear-icon.svg,,gear icon
+assets\icons\go-back-icon.svg,,SVG_asset,Local icon asset,go-back-icon.svg,,go back icon
+assets\icons\grab-icon.svg,,SVG_asset,Local icon asset,grab-icon.svg,,grab icon
+assets\icons\grid-view-icon.svg,,SVG_asset,Local icon asset,grid-view-icon.svg,,grid view icon
+assets\icons\home-icon.svg,,SVG_asset,Local icon asset,home-icon.svg,,home icon
+assets\icons\image-solid.svg,,SVG_asset,Local icon asset,image-solid.svg,,image solid
+assets\icons\in-progress-icon.svg,,SVG_asset,Local icon asset,in-progress-icon.svg,,in progress icon
+assets\icons\list-view-icon.svg,,SVG_asset,Local icon asset,list-view-icon.svg,,list view icon
+assets\icons\logout-icon.svg,,SVG_asset,Local icon asset,logout-icon.svg,,logout icon
+assets\icons\map-pin.svg,,SVG_asset,Local icon asset,map-pin.svg,,map pin
+assets\icons\map-solid.svg,,SVG_asset,Local icon asset,map-solid.svg,,map solid
+assets\icons\menu.svg,,SVG_asset,Local icon asset,menu.svg,,menu
+assets\icons\move-icon.svg,,SVG_asset,Local icon asset,move-icon.svg,,move icon
+assets\icons\new-tab-icon.svg,,SVG_asset,Local icon asset,new-tab-icon.svg,,new tab icon
+assets\icons\newtab-icon.svg,,SVG_asset,Local icon asset,newtab-icon.svg,,newtab icon
+assets\icons\pencil-icon.svg,,SVG_asset,Local icon asset,pencil-icon.svg,,pencil icon
+assets\icons\pin.svg,,SVG_asset,Local icon asset,pin.svg,,pin
+assets\icons\plus-icon.svg,,SVG_asset,Local icon asset,plus-icon.svg,,plus icon
+assets\icons\plus.svg,,SVG_asset,Local icon asset,plus.svg,,plus
+assets\icons\project-thumbnail-icon.svg,,SVG_asset,Local icon asset,project-thumbnail-icon.svg,,project thumbnail icon
+assets\icons\projects-icon.svg,,SVG_asset,Local icon asset,projects-icon.svg,,projects icon
+assets\icons\question-mark-icon.svg,,SVG_asset,Local icon asset,question-mark-icon.svg,,question mark icon
+assets\icons\red-error-circle-icon.svg,,SVG_asset,Local icon asset,red-error-circle-icon.svg,,red error circle icon
+assets\icons\refresh-icon.svg,,SVG_asset,Local icon asset,refresh-icon.svg,,refresh icon
+assets\icons\resolution-high.svg,,SVG_asset,Local icon asset,resolution-high.svg,,resolution high
+assets\icons\resolution-low.svg,,SVG_asset,Local icon asset,resolution-low.svg,,resolution low
+assets\icons\rotate-icon.svg,,SVG_asset,Local icon asset,rotate-icon.svg,,rotate icon
+assets\icons\search-icon.svg,,SVG_asset,Local icon asset,search-icon.svg,,search icon
+assets\icons\share-icon.svg,,SVG_asset,Local icon asset,share-icon.svg,,share icon
+assets\icons\sold.svg,,SVG_asset,Local icon asset,sold.svg,,sold
+assets\icons\team-icon.svg,,SVG_asset,Local icon asset,team-icon.svg,,team icon
+assets\icons\thunder-icon.svg,,SVG_asset,Local icon asset,thunder-icon.svg,,thunder icon
+assets\icons\tick-icon.svg,,SVG_asset,Local icon asset,tick-icon.svg,,tick icon
+assets\icons\trash-icon.svg,,SVG_asset,Local icon asset,trash-icon.svg,,trash icon
+assets\icons\trashcan-icon.svg,,SVG_asset,Local icon asset,trashcan-icon.svg,,trashcan icon
+assets\icons\triangle-exclamation-solid.svg,,SVG_asset,Local icon asset,triangle-exclamation-solid.svg,,triangle exclamation solid
+assets\icons\upload-cloud.svg,,SVG_asset,Local icon asset,upload-cloud.svg,,upload cloud
+assets\icons\uppy-cancel.svg,,SVG_asset,Local icon asset,uppy-cancel.svg,,uppy cancel
+assets\icons\x-gray-icon.svg,,SVG_asset,Local icon asset,x-gray-icon.svg,,x gray icon
+assets\icons\x-icon.svg,,SVG_asset,Local icon asset,x-icon.svg,,x icon
+assets\icons\cards\amex.svg,,SVG_asset,Local icon asset,amex.svg,,amex
+assets\icons\cards\diners-club.svg,,SVG_asset,Local icon asset,diners-club.svg,,diners club
+assets\icons\cards\discover.svg,,SVG_asset,Local icon asset,discover.svg,,discover
+assets\icons\cards\jcb.png,,SVG_asset,Local icon asset,jcb.png,,jcb
+assets\icons\cards\mastercard.svg,,SVG_asset,Local icon asset,mastercard.svg,,mastercard
+assets\icons\cards\unionpay.svg,,SVG_asset,Local icon asset,unionpay.svg,,unionpay
+assets\icons\cards\unknown-card.png,,SVG_asset,Local icon asset,unknown-card.png,,unknown card
+assets\icons\cards\visa.png,,SVG_asset,Local icon asset,visa.png,,visa

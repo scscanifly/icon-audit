@@ -1,0 +1,5 @@
+<svg id="myProjectsIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" aria-labelledby="my-projects-icon"  aria-describedby="my-projects-icon-desc">
+	<title id="my-projects-icon">My Projects</title>
+	<desc id="my-projects-icon-desc">Icon that links to the current user's projects</desc>
+  <path fill="#34383c" d="M21,5.76c0-1.11-.83-2.01-1.85-2.01h-2.25c-.05,0-.11,0-.16,0h-5.32v-.74c0-1.11-.83-2.02-1.86-2.02H2.86c-1.03,0-1.86,.9-1.86,2.02V7.17s0,.02,0,.03v11.61c0,1.21,.9,2.19,2.02,2.19h15.97c1.11,0,2.02-.98,2.02-2.19V7.2h0v-1.42h0v-.02Z"/>
+</svg>

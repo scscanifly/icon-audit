@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+	<style type="text/css">
+		.st1 {
+			fill: currentColor;
+		}
+
+		.st8 {
+			fill: #FFFFFF;
+			stroke: currentColor;
+			stroke-width: 5;
+			stroke-miterlimit: 10;
+		}
+
+		.st67 {
+			fill: none;
+			stroke: currentColor;
+			stroke-width: 5;
+			stroke-miterlimit: 10;
+		}
+
+		.st291 {
+			fill: currentColor;
+			stroke: #FFFFFF;
+			stroke-width: 1.5;
+			stroke-miterlimit: 10;
+		}
+	</style>
+	<g>
+		<polygon class="st291" points="196.23,195.99 196.23,267.81 247.06,267.81 247.06,182.5 209.72,182.5 	" />
+		<rect x="141.61" y="15.1" class="st291" width="49.62" height="81.37" />
+		<polygon class="st291" points="141.61,182.5 141.61,267.81 191.23,267.81 191.23,195.99 177.74,182.5 	" />
+		<polygon class="st291" points="247.06,97.48 196.23,97.48 196.23,164.01 209.72,177.5 247.06,177.5 	" />
+		<polygon class="st291" points="191.23,97.48 141.61,97.48 141.61,177.5 177.74,177.5 191.23,164.01 	" />
+		<rect x="248.06" y="15.1" class="st291" width="47.67" height="81.37" />
+		<rect x="91.73" y="182.5" class="st291" width="48.88" height="85.31" />
+		<rect x="91.73" y="97.48" class="st291" width="48.88" height="80.02" />
+		<rect x="248.06" y="268.81" class="st291" width="47.67" height="76.09" />
+		<rect x="91.73" y="15.1" class="st291" width="48.88" height="81.37" />
+		<rect x="91.73" y="268.81" class="st291" width="48.88" height="76.09" />
+		<rect x="141.61" y="268.81" class="st291" width="49.62" height="76.09" />
+		<rect x="248.06" y="97.48" class="st291" width="47.67" height="80.02" />
+		<rect x="196.23" y="268.81" class="st291" width="50.83" height="76.09" />
+		<rect x="196.23" y="15.1" class="st291" width="50.83" height="81.37" />
+		<rect x="248.06" y="182.5" class="st291" width="47.67" height="85.31" />
+	</g>
+	<g>
+		<circle class="st8" cx="94.73" cy="96.98" r="75.12" />
+	</g>
+	<path class="st67" d="M19.62,96.98c0,0,31.36,41.67,75.12,41.67s75.12-41.67,75.12-41.67" />
+	<path class="st67" d="M19.62,96.98c0,0,31.36,23.33,75.12,23.33s75.12-23.33,75.12-23.33" />
+	<path class="st67" d="M19.62,96.98c0,0,22.25,58.44,75.12,58.44s75.12-58.44,75.12-58.44" />
+	<path class="st1" d="M110,170.62c0,0-6.89,2.36-14.87-10.31s4.27-18.19-8.87-21.67c-13.14-3.47-9.57-2.06-17.11-12.44
+	s-13.22-12.03-13.22-12.03s-5.9-10.19-6.67,3.64c-0.77,13.83-1,19.23-1,19.23s-4.74,3.63-4.74,3.63v10.87l23.6,15.15l19.15,5.65
+	L110,170.62z" />
+	<path class="st67" d="M71.05,167.14c0,0,7.23-48.67,7.67-49.33" />
+	<line class="st67" x1="102.3" y1="171.18" x2="109.63" y2="119.42" />
+	<line class="st67" x1="129.75" y1="163.45" x2="137.1" y2="113.61" />
+</svg>

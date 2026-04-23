@@ -1,0 +1,17 @@
+{
+  "components\\SettingsSections\\ArraySettings\\Array\\RackingPresets\\ModuleOrientationToggleGroup\\Landscape.svg": "extracted/settings-ui__components__SettingsSections__ArraySettings__Array__RackingPresets__ModuleOrientationToggleGroup__Landscape.svg",
+  "components\\SettingsSections\\ArraySettings\\Array\\RackingPresets\\ModuleOrientationToggleGroup\\Portrait.svg": "extracted/settings-ui__components__SettingsSections__ArraySettings__Array__RackingPresets__ModuleOrientationToggleGroup__Portrait.svg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-lg-neon.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-lg-neon.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-monocrystalline-3.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-monocrystalline-3.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-monocrystalline-black-4.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-monocrystalline-black-4.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-monocrystalline-black-5.png": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-monocrystalline-black-5.png",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-monocrystalline-black.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-monocrystalline-black.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-monocrystalline.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-monocrystalline.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-polycrystalline-2.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-polycrystalline-2.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-polycrystalline.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-polycrystalline.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-sunpower-x-black.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-sunpower-x-black.jpg",
+  "components\\SettingsSections\\ModuleSettings\\Texture\\images\\module-sunpower-x.jpg": "extracted/settings-ui__components__SettingsSections__ModuleSettings__Texture__images__module-sunpower-x.jpg",
+  "components\\SettingsSections\\MouseControlSettings\\MouseControls\\images\\auroraControls.svg": "extracted/settings-ui__components__SettingsSections__MouseControlSettings__MouseControls__images__auroraControls.svg",
+  "components\\SettingsSections\\MouseControlSettings\\MouseControls\\images\\autoCadControls.svg": "extracted/settings-ui__components__SettingsSections__MouseControlSettings__MouseControls__images__autoCadControls.svg",
+  "components\\SettingsSections\\MouseControlSettings\\MouseControls\\images\\scaniflyControls.svg": "extracted/settings-ui__components__SettingsSections__MouseControlSettings__MouseControls__images__scaniflyControls.svg"
+}

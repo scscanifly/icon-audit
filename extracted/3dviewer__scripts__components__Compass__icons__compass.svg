@@ -1,0 +1,13 @@
+<svg width="46" height="46" viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg">
+    <!-- Outer circle -->
+    <circle cx="50" cy="50" r="50" fill="#000000" fill-opacity="0.3"/>
+    <!-- Inner circle -->
+    <circle cx="50" cy="50" r="18" fill="#000000" fill-opacity="0.3" />
+    <g class="arrow">
+        <!-- North arrow (red) -->
+        <polygon points="50,22 56,50 44,50" fill="#FF0000" />
+        <!-- South arrow (white) -->
+        <polygon points="50,78 56,50 44,50" fill="#FFFFFF" />
+    </g>
+</svg>

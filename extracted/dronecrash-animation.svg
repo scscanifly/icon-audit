@@ -1,0 +1,277 @@
+<svg id="erHGk5Mc1Uu1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 360 360" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <style>
+    #erHGk5Mc1Uu26_tr {
+    animation: erHGk5Mc1Uu26_tr__tr 3000ms linear infinite normal forwards
+    }
+
+    @keyframes erHGk5Mc1Uu26_tr__tr {
+    0% {
+    transform: translate(142.735001px, 198.460007px) rotate(0deg)
+    }
+
+    0.333333% {
+    transform: translate(142.735001px, 198.460007px) rotate(0deg)
+    }
+
+    6.666667% {
+    transform: translate(142.735001px, 198.460007px) rotate(-11.097472deg)
+    }
+
+    16.666667% {
+    transform: translate(142.735001px, 198.460007px) rotate(13.036307deg)
+    }
+
+    23.333333% {
+    transform: translate(142.735001px, 198.460007px) rotate(-21.072356deg)
+    }
+
+    33.333333% {
+    transform: translate(142.735001px, 198.460007px) rotate(-10.028221deg)
+    }
+
+    40% {
+    transform: translate(142.735001px, 198.460007px) rotate(-36.669539deg)
+    }
+
+    46.666667% {
+    transform: translate(142.735001px, 198.460007px) rotate(-6.561665deg)
+    }
+
+    53.333333% {
+    transform: translate(142.735001px, 198.460007px) rotate(4.433739deg)
+    }
+
+    63.333333% {
+    transform: translate(142.735001px, 198.460007px) rotate(-9.476001deg)
+    }
+
+    73.333333% {
+    transform: translate(142.735001px, 198.460007px) rotate(9.494444deg)
+    }
+
+    80% {
+    transform: translate(142.735001px, 198.460007px) rotate(-14.710322deg)
+    }
+
+    86.666667% {
+    transform: translate(142.735001px, 198.460007px) rotate(5.594533deg)
+    }
+
+    96.666667% {
+    transform: translate(142.735001px, 198.460007px) rotate(-14.520159deg)
+    }
+
+    100% {
+    transform: translate(142.735001px, 198.460007px) rotate(-14.520159deg)
+    }
+    }
+
+    #erHGk5Mc1Uu42_tr {
+    animation: erHGk5Mc1Uu42_tr__tr 3000ms linear infinite normal forwards
+    }
+
+    @keyframes erHGk5Mc1Uu42_tr__tr {
+    0% {
+    transform: translate(97.210007px, 193.865005px) rotate(0deg)
+    }
+
+    0.333333% {
+    transform: translate(97.210007px, 193.865005px) rotate(0deg)
+    }
+
+    3.333333% {
+    transform: translate(97.210007px, 193.865005px) rotate(-11.097472deg)
+    }
+
+    13.333333% {
+    transform: translate(97.210007px, 193.865005px) rotate(13.036307deg)
+    }
+
+    23.333333% {
+    transform: translate(97.210007px, 193.865005px) rotate(-21.072356deg)
+    }
+
+    30% {
+    transform: translate(97.210007px, 193.865005px) rotate(-10.028221deg)
+    }
+
+    36.666667% {
+    transform: translate(97.210007px, 193.865005px) rotate(-36.669539deg)
+    }
+
+    43.333333% {
+    transform: translate(97.210007px, 193.865005px) rotate(-6.561665deg)
+    }
+
+    53.333333% {
+    transform: translate(97.210007px, 193.865005px) rotate(4.433739deg)
+    }
+
+    63.333333% {
+    transform: translate(97.210007px, 193.865005px) rotate(-9.476001deg)
+    }
+
+    70% {
+    transform: translate(97.210007px, 193.865005px) rotate(9.494444deg)
+    }
+
+    80% {
+    transform: translate(97.210007px, 193.865005px) rotate(-14.710322deg)
+    }
+
+    90% {
+    transform: translate(97.210007px, 193.865005px) rotate(5.594533deg)
+    }
+
+    96.666667% {
+    transform: translate(97.210007px, 193.865005px) rotate(-14.520159deg)
+    }
+
+    100% {
+    transform: translate(97.210007px, 193.865005px) rotate(-14.520159deg)
+    }
+    }
+
+    #erHGk5Mc1Uu43_tr {
+    animation: erHGk5Mc1Uu43_tr__tr 3000ms linear infinite normal forwards
+    }
+
+    @keyframes erHGk5Mc1Uu43_tr__tr {
+    0% {
+    transform: translate(252.76001px, 82.786499px) rotate(0deg)
+    }
+
+    96.666667% {
+    transform: translate(252.76001px, 82.786499px) rotate(7200deg)
+    }
+
+    100% {
+    transform: translate(252.76001px, 82.786499px) rotate(7200deg)
+    }
+    }
+
+    #erHGk5Mc1Uu44_tr {
+    animation: erHGk5Mc1Uu44_tr__tr 3000ms linear infinite normal forwards
+    }
+
+    @keyframes erHGk5Mc1Uu44_tr__tr {
+    0% {
+    transform: translate(226.44001px, 119.488503px) rotate(0deg)
+    }
+
+    96.666667% {
+    transform: translate(226.44001px, 119.488503px) rotate(3600deg)
+    }
+
+    100% {
+    transform: translate(226.44001px, 119.488503px) rotate(3600deg)
+    }
+    }
+  </style>
+  <defs>
+    <polyline id="erHGk5Mc1Uu2" points="251.94,160.52 280.96,96.16 275.77,92.7 227.5,144.22" />
+    <path id="erHGk5Mc1Uu3"
+      d="M256.84,164.29l9.4,27.21c.12.39.06.81-.16,1.14l-13.92,20.87-13.92,20.87c-.23.34-.59.55-.99.59l-29.16,1.77" />
+    <polyline id="erHGk5Mc1Uu4" points="251.94,160.52 280.96,96.16 275.77,92.7 227.5,144.22" />
+    <path id="erHGk5Mc1Uu5"
+      d="M256.84,164.29l9.4,27.21c.12.39.06.81-.16,1.14l-13.92,20.87-13.92,20.87c-.23.34-.59.55-.99.59l-29.16,1.77" />
+    <polyline id="erHGk5Mc1Uu6" points="144.82,236.74 104.87,220.86 106.2,214.76 181.52,218.46" />
+  </defs>
+  <polyline points="275.77,92.7 258.44,81.14 253.87,87.99 270.16,98.86" fill="#2e3134" />
+  <polygon points="154.52,213.04 148.41,217.07 142.73,193.83 149.42,192.19" fill="#2e3134" />
+  <polyline points="107.69,215.73 102.75,195.5 110.74,193.54 115.39,212.56" fill="#2e3134" />
+  <polygon points="244.74,135.84 249.3,130.6 230.86,118.3 227.04,124.03" fill="#2e3134" />
+  <g>
+    <use width="53.459991" height="67.820007" xlink:href="#erHGk5Mc1Uu2" fill="#fff" />
+    <g>
+      <clipPath>
+        <use width="53.459991" height="67.820007" xlink:href="#erHGk5Mc1Uu2" />
+      </clipPath>
+    </g>
+    <use width="53.459991" height="67.820007" xlink:href="#erHGk5Mc1Uu2" fill="none"
+      stroke="#2e3134" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  </g>
+  <g>
+    <use width="58.21077" height="72.449997" xlink:href="#erHGk5Mc1Uu3" fill="#fff" />
+    <g>
+      <clipPath>
+        <use width="58.21077" height="72.449997" xlink:href="#erHGk5Mc1Uu3" />
+      </clipPath>
+    </g>
+    <use width="58.21077" height="72.449997" xlink:href="#erHGk5Mc1Uu3" fill="none" stroke="#2e3134"
+      stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  </g>
+  <path
+    d="M219.68,140.81l-47.12,70.64c-.41.61-.24,1.43.37,1.84l34.83,23.23c.61.41,1.43.24,1.84-.37l47.12-70.64c.41-.61.24-1.43-.37-1.84l-34.83-23.23c-.61-.4-1.43-.23-1.84.37Z"
+    fill="#fff" stroke="#2e3134" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  <circle r="21.33" transform="translate(246.18 209.52)" fill="#fff" stroke="#2e3134"
+    stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  <circle r="15.66" transform="translate(246.18 209.52)" fill="#0024fa" />
+  <g id="erHGk5Mc1Uu26_tr" transform="translate(142.735001,198.460007) rotate(0)">
+    <path
+      d="M153.92,193.58L135.25,208.1c-1.31,1.02-3.21.78-4.23-.53v0c-1.02-1.31-.78-3.21.53-4.23l18.67-14.52c1.31-1.02,3.21-.78,4.23.53v0c1.02,1.32.78,3.21-.53,4.23Z"
+      transform="translate(-142.735001,-198.460007)" fill="#2e3134" />
+  </g>
+  <g>
+    <use width="53.459991" height="67.820007" xlink:href="#erHGk5Mc1Uu4" fill="#fff" />
+    <g>
+      <clipPath>
+        <use width="53.459991" height="67.820007" xlink:href="#erHGk5Mc1Uu4" />
+      </clipPath>
+    </g>
+    <use width="53.459991" height="67.820007" xlink:href="#erHGk5Mc1Uu4" fill="none"
+      stroke="#2e3134" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  </g>
+  <g>
+    <use width="58.21077" height="72.449997" xlink:href="#erHGk5Mc1Uu5" fill="#fff" />
+    <g>
+      <clipPath>
+        <use width="58.21077" height="72.449997" xlink:href="#erHGk5Mc1Uu5" />
+      </clipPath>
+    </g>
+    <use width="58.21077" height="72.449997" xlink:href="#erHGk5Mc1Uu5" fill="none" stroke="#2e3134"
+      stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  </g>
+  <path
+    d="M219.68,140.81l-47.12,70.64c-.41.61-.24,1.43.37,1.84l34.83,23.23c.61.41,1.43.24,1.84-.37l47.12-70.64c.41-.61.24-1.43-.37-1.84l-34.83-23.23c-.61-.4-1.43-.23-1.84.37Z"
+    fill="#fff" stroke="#2e3134" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  <circle r="21.33" transform="translate(246.18 209.52)" fill="#fff" stroke="#2e3134"
+    stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  <circle r="15.66" transform="translate(246.18 209.52)" fill="#0024fa" />
+  <g id="erHGk5Mc1Uu42_tr" transform="translate(97.210007,193.865005) rotate(0)">
+    <path
+      d="M111.3,199.07l-28.95-3.04c-2.04-.21-3.51-2.04-3.3-4.07v0c.21-2.04,2.04-3.51,4.07-3.3l28.95,3.04c2.04.21,3.51,2.04,3.3,4.07v0c-.21,2.04-2.03,3.51-4.07,3.3Z"
+      transform="translate(-97.210007,-193.865005)" fill="#2e3134" />
+  </g>
+  <g id="erHGk5Mc1Uu43_tr" transform="translate(252.76001,82.786499) rotate(0)">
+    <path
+      d="M247.77,96.95l16.15-24.21c1.14-1.7.68-4-1.03-5.14v0c-1.7-1.14-4-.68-5.14,1.03L241.6,92.84c-1.14,1.7-.68,4,1.03,5.14v0c1.71,1.13,4.01.67,5.14-1.03Z"
+      transform="translate(-252.76001,-82.786499)" fill="#2e3134" />
+  </g>
+  <g id="erHGk5Mc1Uu44_tr" transform="translate(226.44001,119.488503) rotate(0)">
+    <path
+      d="M222.38,131l13.13-19.68c.92-1.38.55-3.25-.83-4.18v0c-1.38-.92-3.25-.55-4.18.83l-13.13,19.68c-.92,1.38-.55,3.25.83,4.18v0c1.39.93,3.26.56,4.18-.83Z"
+      transform="translate(-226.44001,-119.488503)" fill="#2e3134" />
+  </g>
+  <g>
+    <use width="76.650002" height="21.980011" xlink:href="#erHGk5Mc1Uu6" fill="#fff" />
+    <g>
+      <clipPath>
+        <use width="76.650002" height="21.980011" xlink:href="#erHGk5Mc1Uu6" />
+      </clipPath>
+    </g>
+    <use width="76.650002" height="21.980011" xlink:href="#erHGk5Mc1Uu6" fill="none"
+      stroke="#2e3134" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" />
+  </g>
+  <polyline
+    points="239.67,223.76 249.3,217.07 246.18,212.67 244.49,207.34 249.3,203.49 249.3,200.52 246.18,192.19"
+    fill="none" stroke="#fff" stroke-miterlimit="10" />
+  <polyline points="227.5,209.52 234.42,204.63 237.2,207.98 246.18,205.99" fill="none" stroke="#fff"
+    stroke-miterlimit="10" />
+  <polyline
+    points="246.18,212.67 251.42,209.52 252.76,215.73 259.09,215.73 259.09,209.52 256.46,207.08 261.84,199.01"
+    fill="none" stroke="#fff" stroke-miterlimit="10" />
+  <line x1="13.39" y1="236.74" x2="346.61" y2="236.74" fill="#fff" stroke="#2e3134" stroke-width="4"
+    stroke-linejoin="round" stroke-miterlimit="10" />
+</svg>

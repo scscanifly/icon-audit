@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 20" aria-labelledby="back-icon"  aria-describedby="back-icon-desc">
+	<title id="back-icon">Go back</title>
+	<desc id="back-icon-desc">Icon to go back to the previous page</desc>
+  <path fill="currentColor" d="M11.1,20c-0.4,0-0.8-0.1-1.1-0.4l-9-8.2c-0.8-0.7-0.8-2,0-2.7l9-8.2c0.6-0.6,1.5-0.6,2.1,0
+	c0.6,0.6,0.6,1.5,0,2.1L4.7,10l7.3,7.3c0.6,0.6,0.7,1.5,0.2,2.1C11.9,19.8,11.5,20,11.1,20z"/>
+</svg>

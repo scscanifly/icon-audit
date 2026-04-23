@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" style="enable-background:new 0 0 10 10;"
+aria-labelledby="alert-icon"  aria-describedby="alert-icon-desc">
+	<title id="alert-icon">Error</title>
+	<desc id="alert-icon-desc">Graphic showing that there's an error</desc>
+<g fill="#2E3134">
+	<path d="M5,6c0.2,0,0.3-0.1,0.3-0.3V3.1c0-0.2-0.1-0.3-0.3-0.3S4.7,2.9,4.7,3.1v2.6C4.7,5.9,4.8,6,5,6z"/>
+	<path d="M5,0.5c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5s4.5-2,4.5-4.5S7.5,0.5,5,0.5z M5,8.9C2.9,8.9,1.1,7.1,1.1,5
+		S2.9,1.1,5,1.1S8.9,2.9,8.9,5S7.1,8.9,5,8.9z"/>
+	<circle class="alert-circle" cx="5" cy="7" r="0.4"/>
+</g>
+</svg>

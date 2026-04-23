@@ -1,0 +1,25 @@
+file,line,type,library,icon_name,context,label
+components\core\Icons\IconArrow.tsx,29,SVG_inline,Inline SVG,(inline),<svg,
+components\core\Icons\IconDuplicate.tsx,5,SVG_inline,Inline SVG,(inline),"<svg viewBox=""0 0 24 24"" {...props}>",
+components\core\Icons\IconOverflow.tsx,10,SVG_inline,Inline SVG,(inline),"<svg viewBox=""0 0 20 10"" style={{ width: 15 }}>",
+components\core\Icons\IconPencil.tsx,5,SVG_inline,Inline SVG,(inline),"<svg viewBox=""0 0 12 13"" {...props}>",
+components\core\Icons\IconSave.tsx,5,SVG_inline,Inline SVG,(inline),<svg,
+components\core\Icons\IconStar.tsx,5,SVG_inline,Inline SVG,(inline),"<svg viewBox=""0 0 576 512"" {...props}>",
+components\core\Icons\IconTrash.tsx,5,SVG_inline,Inline SVG,(inline),"<svg viewBox=""0 0 24 24"" {...props}>",
+components\core\Icons\IconUndo.tsx,5,SVG_inline,Inline SVG,(inline),"<svg {...props} viewBox=""0 0 512 512"">",
+components\SettingsShell\NavSubs.tsx,111,SVG_inline,Inline SVG,(inline),<svg,
+components\SettingsSections\ArraySettings\Array\RackingPresets\ModuleOrientationToggleGroup\Landscape.svg,,SVG_asset,Local icon asset,Landscape.svg,,landscape
+components\SettingsSections\ArraySettings\Array\RackingPresets\ModuleOrientationToggleGroup\Portrait.svg,,SVG_asset,Local icon asset,Portrait.svg,,portrait
+components\SettingsSections\ModuleSettings\Texture\images\module-lg-neon.jpg,,SVG_asset,Local icon asset,module-lg-neon.jpg,,module lg neon
+components\SettingsSections\ModuleSettings\Texture\images\module-monocrystalline-3.jpg,,SVG_asset,Local icon asset,module-monocrystalline-3.jpg,,module monocrystalline 3
+components\SettingsSections\ModuleSettings\Texture\images\module-monocrystalline-black-4.jpg,,SVG_asset,Local icon asset,module-monocrystalline-black-4.jpg,,module monocrystalline black 4
+components\SettingsSections\ModuleSettings\Texture\images\module-monocrystalline-black-5.png,,SVG_asset,Local icon asset,module-monocrystalline-black-5.png,,module monocrystalline black 5
+components\SettingsSections\ModuleSettings\Texture\images\module-monocrystalline-black.jpg,,SVG_asset,Local icon asset,module-monocrystalline-black.jpg,,module monocrystalline black
+components\SettingsSections\ModuleSettings\Texture\images\module-monocrystalline.jpg,,SVG_asset,Local icon asset,module-monocrystalline.jpg,,module monocrystalline
+components\SettingsSections\ModuleSettings\Texture\images\module-polycrystalline-2.jpg,,SVG_asset,Local icon asset,module-polycrystalline-2.jpg,,module polycrystalline 2
+components\SettingsSections\ModuleSettings\Texture\images\module-polycrystalline.jpg,,SVG_asset,Local icon asset,module-polycrystalline.jpg,,module polycrystalline
+components\SettingsSections\ModuleSettings\Texture\images\module-sunpower-x-black.jpg,,SVG_asset,Local icon asset,module-sunpower-x-black.jpg,,module sunpower x black
+components\SettingsSections\ModuleSettings\Texture\images\module-sunpower-x.jpg,,SVG_asset,Local icon asset,module-sunpower-x.jpg,,module sunpower x
+components\SettingsSections\MouseControlSettings\MouseControls\images\auroraControls.svg,,SVG_asset,Local icon asset,auroraControls.svg,,aurora controls
+components\SettingsSections\MouseControlSettings\MouseControls\images\autoCadControls.svg,,SVG_asset,Local icon asset,autoCadControls.svg,,auto cad controls
+components\SettingsSections\MouseControlSettings\MouseControls\images\scaniflyControls.svg,,SVG_asset,Local icon asset,scaniflyControls.svg,,scanifly controls

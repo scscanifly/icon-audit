@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 15 15"
+  fill="none"
+  style="overflow: visible;"
+>
+  <path
+    d="M2.25,7.5 a 5.25,5.25 0 1,0 10.5,0 a 5.25,5.25 0 1,0 -10.5,0 M11.2123,11.2123 15,15"
+    transform="translate(-1.25 -1.25)"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+</svg>

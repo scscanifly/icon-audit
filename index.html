@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scanifly S3D — Icon Audit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="sticky-stack" id="sticky-stack">
+    <div class="header">
+      <div class="header-left">
+        <h1>S3D Icon Audit</h1>
+        <span class="header-tag">v2</span>
+      </div>
+      <div class="header-stats">
+        <div class="stat">
+          <div class="stat-val" id="stat-total">—</div>
+          <div class="stat-label">Total Hits</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val" id="stat-libs">—</div>
+          <div class="stat-label">Libraries</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val" id="stat-svgs">—</div>
+          <div class="stat-label">Unique SVGs</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val" id="stat-react">—</div>
+          <div class="stat-label">Unique React Icons</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="inventory">Inventory</button>
+      <button class="tab" data-tab="comparison">Comparison</button>
+      <button class="tab" data-tab="issues">Issues</button>
+      <button class="tab" data-tab="proposed-grid">Proposed Grid</button>
+    </div>
+    <div class="compare-controls-bar hidden" id="compare-controls-bar">
+      <div class="compare-controls-row">
+        <button class="compare-btn" id="btn-edit-toggle">Enable Edit Mode</button>
+        <button class="compare-btn ghost" id="btn-reset">Reset to Default</button>
+        <button class="compare-btn ghost" id="btn-build-from-inventory">Build From Inventory</button>
+        <button class="compare-btn ghost" id="btn-generate-usage">Generate Usage From Paths</button>
+        <button class="compare-btn ghost" id="btn-combine-selected">Combine Selected</button>
+        <select class="compare-mini-select" id="bulk-move-section"></select>
+        <button class="compare-btn ghost" id="btn-bulk-move">Move Selected</button>
+        <button class="compare-btn ghost" id="btn-merge-duplicates">Merge Duplicates</button>
+        <button class="compare-btn ghost" id="btn-sort-scope">Sort Scope: Sections</button>
+        <button class="compare-btn ghost" id="btn-sort-name">Sort: Name</button>
+        <button class="compare-btn ghost" id="btn-sort-proposed">Sort: Proposed</button>
+        <button class="compare-btn ghost" id="btn-sort-multi">Sort: Multi</button>
+        <button class="compare-btn ghost" id="btn-export-json">Export JSON</button>
+        <button class="compare-btn ghost" id="btn-export-csv">Export CSV</button>
+        <label class="compare-btn ghost compare-file-btn">
+          Import JSON/CSV
+          <input type="file" id="compare-import" accept=".json,.csv,application/json,text/csv">
+        </label>
+        <span class="compare-save-note">Changes save locally in this browser.</span>
+      </div>
+      <div class="compare-forms hidden" id="compare-forms">
+        <div class="compare-form-toggles">
+          <button class="compare-btn ghost" type="button" id="btn-add-section-toggle">Add Section</button>
+          <button class="compare-btn ghost" type="button" id="btn-add-item-toggle">Add Line Item</button>
+        </div>
+        <form class="compare-form hidden" id="add-section-form">
+          <div class="compare-form-title">Add Section</div>
+          <div class="compare-form-row">
+            <input type="text" id="section-name" placeholder="Section name (e.g. Toolbar)" required>
+            <button class="compare-btn" type="submit">Add Section</button>
+          </div>
+        </form>
+        <form class="compare-form hidden" id="add-item-form">
+          <div class="compare-form-title">Add Line Item</div>
+          <div class="compare-form-row">
+            <select id="item-section" required></select>
+            <input type="text" id="item-label" placeholder="Label (e.g. Zoom In)" required>
+            <input type="text" id="item-usage" placeholder="Usage (e.g. Toolbar, Sidebar)" required>
+            <input type="text" id="item-current" placeholder="Current (e.g. MdAdd)" required>
+            <input type="text" id="item-current-lib" placeholder="Current Lib (e.g. react-icons/md)" required>
+            <input type="text" id="item-proposed" placeholder="Proposed (e.g. ZoomIn)" required>
+            <input type="text" id="item-proposed-lib" placeholder="Proposed Lib (e.g. lucide-react)" required>
+            <input type="text" id="item-emoji" placeholder="Emoji (e.g. +)" maxlength="3">
+            <button class="compare-btn" type="submit">Add Item</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="compare-jump-bar hidden" id="compare-jump-bar"></div>
+  </div>
+
+  <div class="sticky-spacer" id="sticky-spacer"></div>
+
+  <!-- ═══════════════════════════════════════════
+     TAB: INVENTORY
+═══════════════════════════════════════════ -->
+  <div id="tab-inventory" class="main">
+
+    <div class="summary-bar">
+      <div class="summary-cell" data-filter-type="SVG_import">
+        <div class="summary-dot dot-svg"></div>
+        <div class="summary-cell-info">
+          <div class="summary-cell-label">SVG Imports</div>
+          <div class="summary-cell-val" id="sum-val-SVG_import">—</div>
+          <div class="summary-cell-sub" id="sum-sub-SVG_import">—</div>
+        </div>
+      </div>
+      <div class="summary-cell" data-filter-type="ReactIcons">
+        <div class="summary-dot dot-react"></div>
+        <div class="summary-cell-info">
+          <div class="summary-cell-label">React Icons</div>
+          <div class="summary-cell-val" id="sum-val-ReactIcons">—</div>
+          <div class="summary-cell-sub" id="sum-sub-ReactIcons">—</div>
+        </div>
+      </div>
+      <div class="summary-cell" data-filter-type="FontAwesome">
+        <div class="summary-dot dot-fa"></div>
+        <div class="summary-cell-info">
+          <div class="summary-cell-label">Font Awesome</div>
+          <div class="summary-cell-val" id="sum-val-FontAwesome">—</div>
+          <div class="summary-cell-sub">CSS class + FA wrapper</div>
+        </div>
+      </div>
+      <div class="summary-cell" data-filter-type="SVG_inline">
+        <div class="summary-dot dot-inline"></div>
+        <div class="summary-cell-info">
+          <div class="summary-cell-label">Inline SVG</div>
+          <div class="summary-cell-val" id="sum-val-SVG_inline">—</div>
+          <div class="summary-cell-sub">Hardcoded in JSX</div>
+        </div>
+      </div>
+      <div class="summary-cell" data-filter-type="SCSS_url">
+        <div class="summary-dot" style="background:var(--purple)"></div>
+        <div class="summary-cell-info">
+          <div class="summary-cell-label">SCSS url()</div>
+          <div class="summary-cell-val" id="sum-val-SCSS_url">—</div>
+          <div class="summary-cell-sub">background-image icons</div>
+        </div>
+      </div>
+      <div class="summary-cell" data-filter-type="SVG_asset">
+        <div class="summary-dot" style="background:var(--green)"></div>
+        <div class="summary-cell-info">
+          <div class="summary-cell-label">SVG Assets</div>
+          <div class="summary-cell-val" id="sum-val-SVG_asset">—</div>
+          <div class="summary-cell-sub">icon files on disk</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filters">
+      <div class="search-wrap">
+        <span class="search-icon">⌕</span>
+        <input type="text" id="search-input" placeholder="Search icon name, file, library…">
+      </div>
+      <select id="repo-filter" class="repo-filter"></select>
+      <button class="filter-btn active-all" id="btn-all" data-filter-type="all">All</button>
+      <button class="filter-btn" id="btn-SVG_import" data-filter-type="SVG_import">SVG Files</button>
+      <button class="filter-btn" id="btn-ReactIcons" data-filter-type="ReactIcons">React Icons</button>
+      <button class="filter-btn" id="btn-FontAwesome" data-filter-type="FontAwesome">Font Awesome</button>
+      <button class="filter-btn" id="btn-SVG_inline" data-filter-type="SVG_inline">Inline SVG</button>
+      <button class="filter-btn" id="btn-SCSS_url" data-filter-type="SCSS_url">SCSS url()</button>
+      <button class="filter-btn" id="btn-SVG_asset" data-filter-type="SVG_asset">SVG Assets</button>
+      <span class="result-count" id="result-count"></span>
+      <button class="filter-btn export-btn" id="btn-export-inventory-json">Export JSON</button>
+      <button class="filter-btn export-btn" id="btn-export-inventory-csv">Export CSV</button>
+      <button class="filter-btn" id="btn-inv-edit-toggle">Edit Mode</button>
+    </div>
+
+    <div class="lib-chips" id="lib-chips"></div>
+
+    <div class="pagination pagination-top" id="pagination-top"></div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-sort-col="type">Type</th>
+            <th data-sort-col="repo">Repo</th>
+            <th data-sort-col="icon_name">Icon Name</th>
+            <th data-sort-col="label">Label</th>
+            <th data-sort-col="library">Library</th>
+            <th data-sort-col="repoPath">File</th>
+            <th data-sort-col="line">Line</th>
+            <th>Context</th>
+            <th class="th-actions"></th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+     TAB: COMPARISON
+═══════════════════════════════════════════ -->
+  <div id="tab-comparison" class="main hidden">
+
+
+    <div class="compare-grid" id="compare-grid"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+     TAB: PROPOSED GRID
+═══════════════════════════════════════════ -->
+  <div id="tab-proposed-grid" class="main hidden">
+    <div class="proposed-grid-intro">
+      <h2>Icon Field Test</h2>
+      <p>All icons shown together to evaluate visual consistency at a glance.</p>
+      <div class="proposed-grid-actions">
+        <div class="grid-mode-toggle">
+          <button class="compare-btn grid-mode-btn active" id="btn-grid-proposed" data-grid-mode="proposed">Proposed</button>
+          <button class="compare-btn ghost grid-mode-btn" id="btn-grid-current" data-grid-mode="current">Current</button>
+        </div>
+        <button class="compare-btn ghost" id="btn-shuffle-proposed">Shuffle</button>
+      </div>
+    </div>
+    <div class="proposed-grid" id="proposed-grid"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+     TAB: ISSUES
+═══════════════════════════════════════════ -->
+  <div id="tab-issues" class="main hidden">
+    <div class="issues-grid">
+
+      <div class="issue-card">
+        <div class="issue-card-header">
+          <span class="issue-severity sev-high">High</span>
+          <span class="issue-title">8 react-icon sub-libraries in use</span>
+          <span class="issue-count">fa, fa6, fi, md, gi, pi, lu, tb, bi — 9 packages → consolidate to
+            lucide-react</span>
+        </div>
+        <div class="issue-card-body">
+          <p class="issue-desc">React Icons is a meta-package — each sub-library (fa6, md, fi…) resolves to a separate
+            icon set with different visual styles, stroke weights, and design languages. The result is visually
+            inconsistent UI across S3D. Standardizing on a single sub-library would allow tree-shaking and visual
+            coherence.</p>
+          <div class="issue-examples">
+            <div class="issue-example"><span>react-icons/fa6</span> — FaChevronRight (Font Awesome, solid)</div>
+            <div class="issue-example"><span>react-icons/fi</span> — FiAlertTriangle (Feather, outlined, thinner)</div>
+            <div class="issue-example"><span>react-icons/gi</span> — GiResize (Game Icons — very different style)</div>
+            <div class="issue-example"><span>react-icons/md</span> — MdClose (Material Design, different grid)</div>
+            <div class="issue-example"><span>react-icons/pi</span> — PiMagicWand (Phosphor, duotone-capable)</div>
+            <div class="issue-example"><span>react-icons/lu</span> — LuTreeDeciduous (Lucide, clean modern)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="issue-card">
+        <div class="issue-card-header">
+          <span class="issue-severity sev-high">High</span>
+          <span class="issue-title">Legacy Font Awesome icons (CSS classes + custom wrapper)</span>
+          <span class="issue-count">121 hits across multiple files</span>
+        </div>
+        <div class="issue-card-body">
+          <p class="issue-desc">Font Awesome CSS class icons (e.g. <code
+              style="font-family:var(--mono);color:var(--amber)">&lt;i className="fa fa-close"&gt;</code>) require a
+            separate stylesheet to be loaded, are not tree-shakeable, and are visually inconsistent with component-based
+            icons. All should be migrated to React components.</p>
+          <div class="issue-examples">
+            <div class="issue-example">NavItems.tsx — <span>fa-cube, fa-bar-chart, fa-share-alt, fa-arrow-left</span>
+            </div>
+            <div class="issue-example">LayersTreeItemCancel.tsx — <span>fa-close</span></div>
+            <div class="issue-example">LayersTreeItemCancel (Layers2) — <span>fa-close</span></div>
+            <div class="issue-example">DropdownModules.tsx — <span>fa-fw</span> (spacing utility only)</div>
+            <div class="issue-example">SidebarExports — <span>fa-pulse</span> (loading spinner via CSS)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="issue-card">
+        <div class="issue-card-header">
+          <span class="issue-severity sev-high">High</span>
+          <span class="issue-title">Duplicate SVG paths for same logical icon</span>
+          <span class="issue-count">~12 duplicated concepts</span>
+        </div>
+        <div class="issue-card-body">
+          <p class="issue-desc">The same icon concept is imported from multiple different file paths across the
+            codebase. This makes updates fragile — changing an icon requires hunting down all import paths. A
+            centralized icon component registry would fix this.</p>
+          <div class="issue-examples">
+            <div class="issue-example">Drone: <span>../Icons/drone.svg</span> +
+              <span>@components/core/Icons/drone.svg</span> + <span>@styles/images/icons/drone-small.svg</span> +
+              relative paths
+            </div>
+            <div class="issue-example">Edit: <span>@components/core/Icons/edit.svg</span> +
+              <span>@components/core/Icons/edit1.svg</span> + <span>@styles/images/icons/edit-pencil.svg</span>
+            </div>
+            <div class="issue-example">Fill: <span>./Fill.svg</span> + <span>@components/core/Icons/max-fill.svg</span>
+              + <span>@styles/images/icons/max-fill.svg</span></div>
+            <div class="issue-example">Satellite: <span>@components/core/Icons/satellite.svg</span> +
+              <span>@styles/images/icons/satellite-small.svg</span> + relative paths
+            </div>
+            <div class="issue-example">Visibility: <span>annotations-on.svg</span> aliased as <span>VisibleIcon</span>
+              (semantic mismatch)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="issue-card">
+        <div class="issue-card-header">
+          <span class="issue-severity sev-med">Medium</span>
+          <span class="issue-title">Semantic aliasing inconsistency</span>
+          <span class="issue-count">~8 mismatches</span>
+        </div>
+        <div class="issue-card-body">
+          <p class="issue-desc">Some SVG files are imported under aliases that don't match their semantic meaning —
+            making code harder to reason about and the icons harder to find during refactors.</p>
+          <div class="issue-examples">
+            <div class="issue-example"><span>VisibleIcon</span> → annotations-on.svg (not a visibility icon)</div>
+            <div class="issue-example"><span>ViewshedIcon</span> → shade-on.svg (viewshed ≠ shade)</div>
+            <div class="issue-example"><span>DuplicateSVG</span> → copy.svg (fine, but CopySVG also exists)</div>
+            <div class="issue-example"><span>RenameSVG</span> → edit.svg (rename and edit are different actions)</div>
+            <div class="issue-example"><span>KeepoutIcon</span> → keepouts-on.svg (singular vs plural inconsistency)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="issue-card">
+        <div class="issue-card-header">
+          <span class="issue-severity sev-med">Medium</span>
+          <span class="issue-title">7 hardcoded inline SVGs</span>
+          <span class="issue-count">Arrow, PlusIcon, LightBulb, NavItems, PaneKeepOuts ×2, Viewshed</span>
+        </div>
+        <div class="issue-card-body">
+          <p class="issue-desc">Inline SVGs embedded directly in JSX cannot be reused, themed, or audited easily. They
+            also bloat component files. Each should be extracted to a shared icon component.</p>
+          <div class="issue-examples">
+            <div class="issue-example">components/core/Icons/Arrow.tsx — full SVG path inline</div>
+            <div class="issue-example">components/core/Icons/PlusIcon.tsx — full SVG inline</div>
+            <div class="issue-example">components/core/Icons/IconLightBulb.tsx — inline with viewBox</div>
+            <div class="issue-example">components/Nav/NavItems.tsx:108 — inline SVG in nav config object</div>
+            <div class="issue-example">components/PaneKeepOuts/Options/AutoAI.tsx, FireSetback.tsx</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="issue-card">
+        <div class="issue-card-header">
+          <span class="issue-severity sev-low">Low</span>
+          <span class="issue-title">SVG assets in 3 different directory trees</span>
+          <span class="issue-count">@components/core/Icons, @styles/images/icons,
+            @components/Toolbar/assets/icons</span>
+        </div>
+        <div class="issue-card-body">
+          <p class="issue-desc">Custom SVG assets are scattered across three distinct directory trees, with no clear
+            convention for which belongs where. This makes it hard to find icons and leads to duplication. Recommend a
+            single <code style="font-family:var(--mono);color:var(--accent)">@assets/icons/</code> source of truth.</p>
+          <div class="issue-examples">
+            <div class="issue-example"><span>@components/core/Icons/</span> — 30+ SVG files (most canonical)</div>
+            <div class="issue-example"><span>@styles/images/icons/</span> — 15+ SVG files (style-adjacent)</div>
+            <div class="issue-example"><span>@components/Toolbar/assets/icons/</span> — toolbar-specific</div>
+            <div class="issue-example"><span>@components/ToolbarSimpleDesign/assets/icons/</span> — simple design
+              toolbar</div>
+            <div class="issue-example">Plus local <span>./icons/</span> folders in ViewportOverlay, Compass</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="issue-card">
+        <div class="issue-card-header">
+          <span class="issue-severity sev-low">Low</span>
+          <span class="issue-title">Stale react-icons/fa (v4) alongside react-icons/fa6 (v6)</span>
+          <span class="issue-count">3 fa + 23 fa6 usages</span>
+        </div>
+        <div class="issue-card-body">
+          <p class="issue-desc">Font Awesome v4 icons (<code
+              style="font-family:var(--mono);color:var(--amber)">react-icons/fa</code>) and v6 icons (<code
+              style="font-family:var(--mono);color:var(--amber)">react-icons/fa6</code>) coexist. FaChevronRight and
+            FaChevronDown appear in both. The fa package should be fully removed in favor of fa6, or ideally replaced
+            with the target unified library.</p>
+          <div class="issue-examples">
+            <div class="issue-example">Collapsible.tsx — <span>FaChevronRight, FaChevronDown</span> from react-icons/fa
+              (v4)</div>
+            <div class="issue-example">ExpandCollapseButton — <span>FaAngleUp, FaAngleDown</span> from react-icons/fa6
+              (v6)</div>
+            <div class="issue-example">WidgetActionMenuContent — <span>FaSave</span> from react-icons/fa (v4)</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    window.ICON_REPOS = {
+      '3dviewer': { label: '3D Viewer', root: '../3d-viewer-staging/app', color: '#2f7de1', bg: 'rgba(47, 125, 225, 0.12)' },
+      'portal-fe': { label: 'Portal FE', root: '../portal-fe-develop', color: '#2fbf7a', bg: 'rgba(47, 191, 122, 0.12)' },
+      'settings-ui': { label: 'Settings UI', root: '../settings-ui-main', color: '#d48806', bg: 'rgba(212, 136, 6, 0.12)' }
+    };
+    window.ICON_REPO_ORDER = ['3dviewer', 'portal-fe', 'settings-ui'];
+    window.ICON_DATASETS = {};
+  </script>
+  <script src="data-3dviewer.js"></script>
+  <script>window.ICON_DATASETS['3dviewer'] = window.ICON_DATA;</script>
+  <script src="data-portal-fe.js"></script>
+  <script>window.ICON_DATASETS['portal-fe'] = window.ICON_DATA;</script>
+  <script src="data-settings-ui.js"></script>
+  <script>window.ICON_DATASETS['settings-ui'] = window.ICON_DATA;</script>
+  <script src="extracted/inline-index.js"></script>
+  <script src="data.js"></script>
+  <script src="utils.js"></script>
+  <script src="svg-render.js"></script>
+  <script src="icon-preview.js"></script>
+  <script src="inventory-state.js"></script>
+  <script src="inventory-table.js"></script>
+  <script src="comparison-data.js"></script>
+  <script src="comparison-render.js"></script>
+  <script src="comparison-controls.js"></script>
+  <script src="comparison-mutations.js"></script>
+  <script src="app-init.js"></script>
+  <input type="file" id="global-svg-upload" accept=".svg" style="display: none;">
+</body>
+
+</html>

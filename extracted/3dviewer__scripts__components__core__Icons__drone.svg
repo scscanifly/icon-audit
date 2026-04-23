@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:currentColor;stroke-width:1.2;}
+	.st2{fill:none;stroke:currentColor;stroke-width:1.5;stroke-miterlimit:10;}
+	.st3{fill:currentColor;}
+	.st4{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;}
+</style>
+<path class="st4" d="M2.01,6.59h7.27"/>
+<path class="st4" d="M14.73,6.59h7.27"/>
+<path class="st4" d="M5.64,6.59V4.78"/>
+<path class="st4" d="M18.36,6.59V4.78"/>
+<path class="st4" d="M5.64,9.23v2.24c0,0.24,0.05,0.47,0.14,0.69c0.09,0.22,0.22,0.42,0.39,0.59l3.18,3.21
+	c0.34,0.34,0.81,0.54,1.29,0.54h2.73c0.48,0,0.95-0.19,1.29-0.54l3.18-3.21c0.34-0.34,0.53-0.8,0.53-1.28V9.23"/>
+<path class="st4" d="M6.55,11.95c4.54-1.82,6.36-1.82,10.9,0"/>
+<path class="st3" d="M6.81,18.62c0.17,0.47,0.69,0.72,1.16,0.55c0.47-0.17,0.72-0.69,0.55-1.16L6.81,18.62z M8.52,18.01
+	c-0.36-1-0.3-1.6-0.19-1.94c0.11-0.33,0.32-0.51,0.48-0.6l-0.89-1.58c-0.48,0.27-1.03,0.77-1.31,1.6c-0.28,0.82-0.25,1.86,0.2,3.13
+	L8.52,18.01z"/>
+<path class="st3" d="M17.19,18.62c-0.17,0.47-0.69,0.72-1.16,0.55c-0.47-0.17-0.72-0.69-0.55-1.16L17.19,18.62z M15.48,18.01
+	c0.36-1,0.3-1.6,0.19-1.94c-0.11-0.33-0.32-0.51-0.48-0.6l0.89-1.58c0.48,0.27,1.03,0.77,1.31,1.6c0.28,0.82,0.25,1.86-0.2,3.13
+	L15.48,18.01z"/>
+</svg>

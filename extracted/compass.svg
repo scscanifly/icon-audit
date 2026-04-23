@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="50" fill-opacity=".3" />
+    <circle cx="50" cy="50" r="18" fill-opacity=".3" />
+    <g class="arrow">
+        <path fill="red" d="m50 22 6 28H44z" />
+        <path fill="#fff" d="m50 78 6-28H44z" />
+    </g>
+</svg>

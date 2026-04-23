@@ -1,0 +1,28 @@
+<svg id="companyInfo" data-name="Company Info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" aria-labelledby="company-profile-icon"  aria-describedby="company-profile-icon-desc">
+	<title id="company-profile-icon">Company Profile</title>
+	<desc id="company-profile-icon-desc">Icon that links to company information.</desc>
+<defs>
+  <style>.cls-2{fill:#e3eaed;}.cls-3,.cls-6{fill:#2e3134;}.cls-3{opacity:0.06;}.cls-5,.cls-7{fill:none;}.lightblue--stroke{stroke-miterlimit:10;stroke-width:2px;}.cls-7{stroke:#2e3134;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}
+  </style>
+</defs>
+  <path class="green--fill" d="M35.59,139.05C15.7,176.22-13.36,254.67,37.16,335.24a10.45,10.45,0,0,0,17.78-.13C73.71,304.22,112,223.57,64,138.93,57.72,127.79,41.63,127.76,35.59,139.05Z"/>
+  <polyline class="cls-2" points="350.76 453.42 455.96 426.78 455.96 259.85 364.32 246.62 341.36 228.32"/>
+  <polyline class="cls-3" points="350.76 453.42 455.96 426.78 455.96 259.85 364.32 246.62 341.36 228.32"/>
+  <polygon class="cls-2" points="350.76 453.42 98.81 450.42 98.81 237.87 214.73 99.49 350.76 237.87 350.76 453.42"/>
+  <path class="lightblue--fill" d="M78.79,257.89,217.37,119.31a5.72,5.72,0,0,1,8.08,0L360.81,256.54a11.25,11.25,0,0,0,8,3.31H481.9a8,8,0,0,0,5.81-13.37L348.11,96.87a8,8,0,0,0-5.81-2.53h-120a8,8,0,0,0-5.63,2.35l-149.15,150a7.94,7.94,0,0,0,5.52,13.54h0A8,8,0,0,0,78.79,257.89Z"/>
+  <rect class="lightblue--fill" x="307.37" y="50.76" width="45.81" height="100.66" rx="12.28"/>
+  <line class="lightblue--stroke" x1="314.65" y1="193.33" x2="396.62" y2="192.78"/>
+  <polygon class="cls-6" points="272.63 139.19 351.11 217.67 438.1 215.42 360.24 139.63 272.63 139.19"/>
+  <g class="lightblue--stroke">
+    <line x1="291.85" y1="138.98" x2="402.99" y2="250.13"/>
+    <line x1="315.45" y1="138.98" x2="426.6" y2="250.13"/>
+    <line x1="339.05" y1="138.98" x2="450.2" y2="250.13"/>
+    <line x1="313.98" y1="185.14" x2="412.68" y2="184.47"/>
+    <line x1="329.79" y1="200.95" x2="428.49" y2="200.28"/>
+    <line x1="302.19" y1="169.71" x2="400.88" y2="169.04"/>
+    <line x1="284.43" y1="153.23" x2="383.13" y2="152.56"/>
+  </g>
+  <path class="cls-7" d="M48.13,190.88s-4.76,165.74,0,250.23"/>
+  <path class="cls-7" d="M28.51,224.5S37.26,248.85,46,258.94"/>
+  <path class="cls-7" d="M63.52,273.76S54.77,298.1,46,308.19"/>
+</svg>
